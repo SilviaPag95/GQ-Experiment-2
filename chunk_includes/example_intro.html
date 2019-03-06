@@ -1,4 +1,5 @@
-<div style="width: 40em;">
+<div style="width: 40em; margin-top: -90px;">
+ <img src="https://foundations2018.sites.uu.nl/wp-content/uploads/sites/284/2017/07/UU-logoENGELS_CMYK-cropped.png" height="100" width="auto" />
 <p>
 This survey is part of a research internship project carried out by Silvia Pagliaro (s.pagliaro@students.uu.nl) and Louk Smalbil (l.smalbil@students.uu.nl) at the Utrecht University Science Faculty, Department of Information and Computing Sciences under the supervision of Kees van Deemter. Please feel free to contact us if you have any question or remarks regarding this survey. 
 </p>
@@ -26,18 +27,62 @@ This survey is part of a research internship project carried out by Silvia Pagli
 <tr>
 <td colspan="2"><label class="error" for="age"></label></td>
 </tr>
-<tr>
-  <td>Sex:</td><td><input name="sex" class="obligatory" type="radio" value="male" id="male" /><label for="male">Male</label>
-                   <input name="sex" type="radio" value="female" id="female"/><label for="female">Female</label>
-                   <input name="sex" type="radio" value="none" id="none"/><label for="none">Prefer not to disclose</label>
-</td>
-</tr>  
-<tr>
-  <td>English proficiency:</td><td><input name="english" class="obligatory" type="radio" value="native" id="native" /><label for="native">Native</label>
-                   <input name="english" type="radio" value="fluent" id="fluent"/><label for="fluent">Fluent</label>
-                   <input name="english" type="radio" value="not_fluent" id="not_fluent"/><label for="not_fluent">Not fluent</label>
+<tr style="height: 15px;"></tr>
+<tr style="vertical-align: top;">
+  <td>Sex:</td>
+  <td style="display: flex; flex-direction: column;">
+    <div>
+      <input name="sex" class="obligatory" type="radio" value="male" id="male" /><label for="male">Male</label>
+    </div>
+    <div>
+       <input name="sex" type="radio" value="female" id="female"/><label for="female">Female</label>
+    </div>
+    <div>
+       <input name="sex" type="radio" value="other" id="other"/><label for="other">Other</label>
+    </div>
+    <div>
+     <input name="sex" type="radio" value="none" id="none"/><label for="none">Prefer not to say</label>
+    </div>
 </td>
 </tr>
-</table>
+<tr style="height: 15px;"></tr>
+<tr style="vertical-align: top;">
+  <td>English proficiency:</td>
+  <td style="display: flex; flex-direction: column;">
+    <div>
+    <input name="english" class="obligatory" type="radio" value="native" id="native" /><label for="native">Native</label>
+    </div>
+    <div>
+      <input name="english" type="radio" value="fluent" id="fluent"/><label for="fluent">Fluent</label>
+    </div>
+    <div>
+       <input name="english" type="radio" value="not_fluent" id="not_fluent"/><label for="not_fluent">Not fluent</label>
+    </div>
+</td>
+</tr>
+<tr style="height: 15px;"></tr>
+<tr style="vertical-align: top;">
+  <td>Highest level of education achieved/currently achieving:</td>
+<td style="display: flex; flex-direction: column;">
+  <div>
+   <input name="education" class="obligatory" type="radio" value="highschool" id="highschool" /><label for="highschool">High school diploma</label>
+  </div>
+  <div>
+   <input name="education" type="radio" value="bachelor" id="bachelor"/><label for="bachelor">Bachelor's degree</label>
+  </div>
+  <div>
+    <input name="education" type="radio" value="master" id="master"/><label for="master">Master's degree</label>
+  </div>
+  <div>
+   <input name="education" type="radio" value="phd" id="phd"/><label for="phd">PhD</label>
+  </div>
+   <div>
+   <input name="education" type="radio" value="preferNotToSay" id="preferNotToSay"/><label for="preferNotToSay">Prefer not to say</label>
+  </div>
+</td>
+</tr>
+
+  
+  </table>
 
 </div>

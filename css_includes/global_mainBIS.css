@@ -7,8 +7,10 @@ body {
 }
 .lindent { margin-left: 5em; }
 .sending-results {
-    font-weight: bold;
+    font-weight: normal;
+    text-align: center;
     font-size: medium;
+    width: 40em;
 }
 div.bar-container {
     border: 1px solid;
