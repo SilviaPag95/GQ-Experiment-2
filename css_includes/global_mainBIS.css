@@ -1,0 +1,124 @@
+body {
+    color: black;
+    background-color: white;
+    margin-left: 0;
+    margin-top: 5em;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.lindent { margin-left: 5em; }
+.sending-results {
+    font-weight: bold;
+    font-size: medium;
+}
+div.bar-container {
+    border: 1px solid;
+    border-color: #9ea4b1;
+    background-color: white;
+    margin: auto;
+
+}
+div.bar {
+    background-color: #449d44;
+}
+p.progress-text {
+    padding-top: 0.5em;
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-style: italic;
+    font-size: small;
+}
+p.practice-box {
+    color: blue;
+    height: 1.5em;
+    padding-bottom: 1em;
+    font-size: small;
+    text-align: center;
+}
+span.retry {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+span.retry:hover {
+    text-decoration: underline;
+}
+span.retry:visited {
+    color: blue;
+}
+
+button {
+    padding: 3px 12px;
+    background: #2860c8;
+    color: white;
+    font-weight: bold;
+    margin: 15px auto;
+    border: none;
+    border-radius: 7px;
+    display: block;
+    cursor: pointer;
+}
+
+.answerBox {
+    font-family: Verdana, Geneva, sans-serif;
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+}
+
+.Message-personalMessage {
+    color: white;
+    text-decoration: none;
+}
+
+.help {
+    display:  inline-block;
+    position: relative;
+}
+
+.info-box {
+    width:    150px;
+    position: absolute;
+    right:    -170px;
+}
+
+.main {
+  width: 900px;
+  height: 500px;
+  border-radius: 7px;
+  border: 1px solid #ababab;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.shape {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px 0px;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.square {
+    display: block;
+}
+
+.toggle {
+    max-width: 900px;
+}
+
+.toggle__target {
+    overflow: hidden;
+    transition: height ease 0.3s
+}
+
+.toggle__trigger {
+    padding: 12px;
+}
+
+.example {
+    max-width: 900px;
+}
